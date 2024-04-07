@@ -9,10 +9,13 @@ body {
 
 .navbar-expand-md {
   background-color: darkslategrey;
-  
-  
 }
 
+.nombre-navbar {
+  transform: translate(100px, -5px);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2em;
+}
 
 .collapse {
   display: flex;
