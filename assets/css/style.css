@@ -33,8 +33,11 @@ header {
   justify-content: center;
   height: 200px;
   height: 270px;
+}
 
-
+.titulos-header {
+  background-color: rgba(53, 95, 95, 0.603);
+  border-radius: 30%;
 }
 
 
@@ -57,14 +60,23 @@ header {
   gap: 15px;
 }
 
+
+
 /* CURRICULUM*/
 
 .curriculum {
   justify-content: start;
   height: 100%;
   background-color: aliceblue;
+}
 
+#Formación-Academica h2 {
+  margin-bottom: 30px;
+}
 
+#Experiencia h2{
+  margin-top: 70px;
+  margin-bottom: 20px;
 }
 
 /*Zona lateral del Curriculum*/
@@ -166,7 +178,7 @@ header {
 }
 
 .imagines {
-  height: 500px;
+  height: 100%;
   width: 100%;
 }
 
